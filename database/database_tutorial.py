@@ -4,12 +4,14 @@ Created on Sat Jan 13 13:57:25 2024
 
 @author: konst
 """
+import database
 # =============================================================================
 # KLASSE & BEFEHLE IMPORTIEREN
 # in database laden, diese ist bereit veknüft mit user_database.db
 # (extra Datei in der alle Daten gespeichert werden)
 # =============================================================================
 from database import UserDatabase
+from database import create_user
 database = UserDatabase()
 
 # =============================================================================
